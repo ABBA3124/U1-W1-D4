@@ -1,81 +1,75 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-    background-image: url(/assets/img/sfondo.png);
-    background-position: center;
-    max-width: 500px;
-    text-align: left;
-    margin: 3%;
-    font-size: 16px;
+  background-image: url(/assets/img/sfondo.png);
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  display: block;
 }
+
 /* HEADER */
 header {
-    background-color: #0088a6;
-    text-align: center;
-    padding: 6%;
-    color: #ebf4e7;
-    text-transform: uppercase;
+  font-size: 114%;
+  box-shadow: 2px 4px 5px 1px rgb(75, 75, 75);
+  display: block;
+  text-align: center;
+  background: linear-gradient(#019cbe, #034658);
+  padding: 20px; /* Padding per spaziatura interna */
 }
-header div {
-    line-height: 2;
-}
-header nav {
-    line-height: 1.3em;
+.bianco {
+  color: aliceblue;
 }
 header nav ul li a {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: aliceblue;
+}
+header div p {
+  padding: 5%;
+  text-transform: uppercase;
+  font-size: 73%;
+}
+header nav ul li {
+  padding: 1%;
+  text-transform: uppercase;
+  font-size: 83%;
 }
 /* MAIN */
-.border {
-    border: 2px;
-    border:solid #8a8a8a;
-    background-color: white;
+main {
+  box-shadow: 2px 0px 5px 1px rgb(75, 75, 75);
 }
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
-.tabella {
-    margin: auto;
-    width: 450px;
-    text-align: center;
-    border-bottom: 1px solid rgb(27, 83, 236);
-}
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
-.provacolore{
-    width: auto;
-    height: auto;
-    padding: 7%;
-    background-image: linear-gradient(to bottom, rgba(38, 59, 62, 1), rgba(0, 85, 102, 1));
-    backdrop-filter: blur(2px); /* Aggiunge sfocatura */
-    color: #ebf4e7
+aside {
+  box-shadow: -2px 4px 5px 1px rgb(75, 75, 75);
 }
-h1, h2, caption{
-    font-weight: bold;
-    
-}
-h2 {
-    text-transform: uppercase;
-}
-caption {
-    font-style: italic;
-}
-.backgrigio {
-    background-color: #8a8a8a;
-    text-align: left;
-    padding: 2%;
+body aside h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 aside div {
-    margin: 2%;
-    
+  background-color: gray;
+  margin: 3%;
+  padding: 10%;
 }
-aside div a {
-    text-align: left;
+
+/* FOOTER */
+footer {
+  box-shadow: 2px 4px 5px 1px rgb(26, 25, 25);
+  background: linear-gradient(#005665, #2f3838);
+  text-align: center;
+  font-size: 94%;
+  padding: 3%;
+  color: white;
 }
-aside div p.data {
-    text-align: right;
+footer address a {
+  color: #ff00ff;
 }

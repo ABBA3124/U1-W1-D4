@@ -43,6 +43,45 @@ main {
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center; /* Allinea il testo al centro */
+}
+
+caption {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+th {
+  background-color: rgb(15, 130, 238);
+  color: white;
+  width: 50px; /* Larghezza dei th */
+  height: 50px; /* Altezza dei th */
+  border: 1px solid white; /* Bordo bianco */
+  line-height: 50px; /* Centra il testo verticalmente */
+}
+
+th:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) td {
+  background-color: white;
+}
+
+.linea-blu {
+  border-bottom: 1px solid rgb(15, 130, 238);
+  margin-bottom: auto;
+}
 
 /* FORM */
 .contenitoreiframe {
@@ -56,6 +95,44 @@ main {
   border-radius: 10%;
   margin: 0 auto;
 }
+/* section */
+.novità-section {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.novità-section h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.novità-section p {
+  font-weight: bold;
+  /text-align: left;
+}
+
+.novità-section form {
+  margin-top: 20px;
+}
+
+.novità-section form input {
+  border-bottom: 1px dotted black;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.novità-section form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.novità-section form button:hover {
+  background-color: #0056b3;
+}
+
 /* ELEMENTI NELL' ASIDE */
 aside {
   box-shadow: -2px 4px 5px 1px rgb(75, 75, 75);

@@ -45,7 +45,17 @@ main {
 /* TABELLE */
 
 /* FORM */
+.contenitoreiframe {
+  width: 100%;
+  text-align: center;
+}
 
+.iframe-adattabile {
+  width: 90%;
+  height: 180px;
+  border-radius: 10%;
+  margin: 0 auto;
+}
 /* ELEMENTI NELL' ASIDE */
 aside {
   box-shadow: -2px 4px 5px 1px rgb(75, 75, 75);
@@ -54,13 +64,30 @@ body aside h2 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+  padding: 7%;
 }
 aside div {
-  background-color: gray;
-  margin: 3%;
-  padding: 10%;
+  background-color: #dfe2e4;
+  margin: 4%;
+  padding: 15%;
+  position: relative; /* Assicura che il div genitore abbia una posizione diversa da static */
 }
-
+.data {
+  position: absolute;
+  bottom: 10%;
+  right: 10px;
+}
+aside div a {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #0fa5ca;
+}
+.p {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
 /* FOOTER */
 footer {
   box-shadow: 2px 4px 5px 1px rgb(26, 25, 25);

@@ -64,3 +64,18 @@ h2 {
 caption {
     font-style: italic;
 }
+.backgrigio {
+    background-color: #8a8a8a;
+    text-align: left;
+    padding: 2%;
+}
+aside div {
+    margin: 2%;
+    
+}
+aside div a {
+    text-align: left;
+}
+aside div p.data {
+    text-align: right;
+}
